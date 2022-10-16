@@ -1,0 +1,11 @@
+.catchMove {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    transition: all .2s;
+    transform: rotateZ(0);
+
+    img {
+        width: 100%;
+    }
+}
