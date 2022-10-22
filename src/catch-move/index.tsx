@@ -1,5 +1,6 @@
 import { off } from "process";
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import "./index.css";
 
 interface OffsetProp {
@@ -63,6 +64,7 @@ export const ItemMove = () => {
       className="catchMove"
       onMouseDown={FnDown}
     >
+      <Link to="/scroll">滚动</Link>
       <img
         src={require("../asstes/youdami.jpg")}
         alt={"youdami"}
